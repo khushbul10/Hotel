@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+}
+#logo {
+    
+    width: 70px;
+    margin-right: 10px;
+}
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d8a1a1;
+    color: firebrick;
+    padding: 12px;
+    margin-bottom: 0px;
+    font-family: "Faustina", serif;
+}
+#nav {
+    display:flexbox;
+    background-color: rgba(3, 169, 177, 0.523);
+    color: white;
+    padding: 5px;
+
+}
+li {
+    display: inline;
+    color: white;
+}
+.roompic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 20px; 
+}
+.booknow {
+    text-align: center;
+    padding: 5px 0px;
+    background-color:chartreuse;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
