@@ -1,29 +1,40 @@
 *{
     margin: 0px;
+    
+}
+main {
+    background-color: #ffe5ec;
 }
 #logo {
     
     width: 70px;
     margin-right: 10px;
 }
+nav li:hover {
+    background-color: #ffb3c6;
+    margin: 0px;
+}
 #header {
     display: flex;
+    
     justify-content: center;
     align-items: center;
-    background-color: #d8a1a1;
-    color: firebrick;
+    background-color: #ffa5ab;
+    color: #450920;
     padding: 12px;
     margin-bottom: 0px;
     font-family: "Faustina", serif;
 }
-#nav {
+nav {
     display:flexbox;
-    background-color:blueviolet;
+    background-color:#a53860;
     color: white;
     padding: 5px;
+    margin: 0px;
 
 }
-li {
+nav li {
+    margin: 0px;
     display: inline;
     color: white;
 }
@@ -36,7 +47,8 @@ li {
 .booknow {
     text-align: center;
     padding: 5px 0px;
-    background-color:chartreuse;
+    background-color:#da627d;
+    color: #ffe5ec;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -51,8 +63,8 @@ nav a {
     color: white;
 }
 footer {
-    background-color: #290924;
-    color: #871F78;
+    background-color: #450920;
+    color: #a53860;
     text-align: center;
     padding: 10px;
     font-family: "Faustina", serif;
